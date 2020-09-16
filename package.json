@@ -1,0 +1,19 @@
+{
+  "name": "dodo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "r": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "moment": "^2.20.1",
+    "moment-duration-format": "^2.2.1",
+    "moment-timezone": "^0.5.28"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
