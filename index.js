@@ -31,8 +31,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '공군') {
-    return message.reply('공군은친절합니다!');
+  if(message.content == 'ping') {
+    return message.reply('pong');
   }
 
   if(message.content == 'embed') {
